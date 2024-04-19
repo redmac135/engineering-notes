@@ -39,7 +39,11 @@ assume $\vec{v}\in V$ can be written in 2 ways
 $\vec{v}=a_1\vec{v_1}+a_2\vec{v_2}+...+a_r\vec{v_r}$
 $\vec{v}=b_1\vec{v_1}+b_2\vec{v_2}+...+b_r\vec{v_r}$
 
-making a homogenous equation to prove [[Linear Independence]]$$$\vec{0}=(a_1-b_1)\vec{v_1}+(a_2-b_2)\vec{v_2}+...$$if $a_i\ne{b_i}$ then $\set{\vec{v_1},\vec{v_2},...,\vec{v_r}}$ is linearly dependent, which contradicts initial assumption that $S$ is a basis.
+making a homogenous equation to prove [[Linear Independence]]
+
+$$\vec{0}=(a_1-b_1)\vec{v_1}+(a_2-b_2)\vec{v_2}+...$$
+
+if $a_i\ne{b_i}$ then $\set{\vec{v_1},\vec{v_2},...,\vec{v_r}}$ is linearly dependent, which contradicts initial assumption that $S$ is a basis.
 
 ## Definition Standard Basis
 
