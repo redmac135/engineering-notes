@@ -1,14 +1,19 @@
 ## Definition
 
 $A\in m\times n$ matrix
+
 $\vec{x}\in \mathbb{R}^n,\:n\times m$ matrix
+
 $\vec{y}=A\cdot\vec{x}\in m\times 1$ matrix, this $\vec{y}\in\mathbb{R}^n$
 
 Thus, $\vec{y}$ acts like a function, taking in any vector in $\mathbb{R}^n$ and outputting a vector in $\mathbb{R}^m$
 
 It is called a **transformation** $T$
+
 $T_A: \mathbb{R}^n\rightarrow\mathbb{R}^m$
+
 Domain of $T_A$ is $\mathbb{R}^n$
+
 Codomain of$T_A$ is $\mathbb{R}^m$
 
 The range of a transformation:
