@@ -7,10 +7,12 @@ $c_1,c_2,...,c_n$ make up the coordinate of $\vec{x}$ in the basis $B$
 $V=\mathbb{R}^2,\:B=\set{\begin{bmatrix}1 \\ 2\end{bmatrix},\begin{bmatrix}3 \\ 0\end{bmatrix}}$
 Find the coordinate of $\vec{v}=\begin{bmatrix}7 \\ -3\end{bmatrix}$ in the basis $B$
 $$\begin{bmatrix}7 \\ -3\end{bmatrix}=a_1\begin{bmatrix}1 \\ 2\end{bmatrix}+a_2\begin{bmatrix}3 \\ 0\end{bmatrix}$$
-$$\begin{cases}
+$$
+\begin{cases}
 a_1+3a_2=7 \\
 2a_1=-3
-\end{cases}$$
+\end{cases}
+$$
 By observation or by a [[Linear Algebra#Augmented Matrix of Coefficients|augmented matrix]],
 $$a_{1}=\frac{-3}{2},\:a_{2}=\frac{17}{6}$$
 Therefore, the coordinate of $\vec{v}$ in basis $B$ is $$\begin{bmatrix}\vec{x}\end{bmatrix}_{B}=\begin{bmatrix}\frac{-3}{2} \\ \frac{{17}}{{6}}\end{bmatrix}$$
@@ -45,8 +47,12 @@ $B=\set{\vec{v_1},\vec{v_2}}$ is a [[Basis of Subspaces|basis]] of $H$.
 
 Given $\vec{x}=\begin{bmatrix}3 \\ 12 \\ 7\end{bmatrix}$, determine if $\vec{x}\in H$ and if so, find its coordinates in $B$.
 
-If $\vec{x}\in H$ then $\vec{x}$ is a [[Linear Combination|linear combination]] of the vectors in basis $B$. $$\vec{x}=c_1\vec{v_1}+c_2\vec{v_2}$$breaking into vector components$$\begin{cases}
+If $\vec{x}\in H$ then $\vec{x}$ is a [[Linear Combination|linear combination]] of the vectors in basis $B$. $$\vec{x}=c_1\vec{v_1}+c_2\vec{v_2}$$breaking into vector components
+$$
+\begin{cases}
 3c_1-c_2=3 \\
 6c_1=12 \\
 2c_1+c_2=7
-\end{cases}$$ an augmented matrix can be formed as follows: $$\begin{bmatrix}3 & -1 & 3 \\ 6 & 0 & 12 \\ 2 & 1 & 7\end{bmatrix}$$ performing [[Matrix Row Reduction]] yields $$\begin{bmatrix}1 & 0 & 2 \\ 0 & 1 & 3 \\ 0 & 0 & 0\end{bmatrix}$$ therefore the coordinate of the vector $\vec{x}$ in $B$ is: $$c_1=2,\:c_2=3\Rightarrow\begin{bmatrix}\vec{x}\end{bmatrix}_B=\begin{bmatrix}2 \\ 3\end{bmatrix}$$
+\end{cases}
+$$ 
+an augmented matrix can be formed as follows: $$\begin{bmatrix}3 & -1 & 3 \\ 6 & 0 & 12 \\ 2 & 1 & 7\end{bmatrix}$$ performing [[Matrix Row Reduction]] yields $$\begin{bmatrix}1 & 0 & 2 \\ 0 & 1 & 3 \\ 0 & 0 & 0\end{bmatrix}$$ therefore the coordinate of the vector $\vec{x}$ in $B$ is: $$c_1=2,\:c_2=3\Rightarrow\begin{bmatrix}\vec{x}\end{bmatrix}_B=\begin{bmatrix}2 \\ 3\end{bmatrix}$$

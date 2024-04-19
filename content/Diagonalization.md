@@ -21,10 +21,12 @@ Begin with $\lambda=1:$
 3. [[Matrix Row Reduction|row reduce]] to RREF
 $$\begin{bmatrix}0 & 3 & 3 & 0 \\ -3 & -6 & -3 & 0 \\ 3 & 3 & 0 & 0\end{bmatrix}\rightarrow\begin{bmatrix}1 & 0 & -1 & 0 \\ 0 & 1 & 1 & 0 \\ 0 & 0 & 0 & 0\end{bmatrix}$$
 Free variable: $x_3=s$
-$$\begin{cases}
+$$
+\begin{cases}
 x_1=s \\
 x_2=-s
-\end{cases}$$
+\end{cases}
+$$
 $$\vec{x}=\begin{bmatrix}x_1 \\ x_2 \\ x_3\end{bmatrix}=\begin{bmatrix}1 \\ -1 \\ 1\end{bmatrix}s$$
 The [[Eigenvectors and Eigenvalues|eigenspace]] is now the [[Vector Span|span]] of these vectors $$\mathrm{span}\set{\begin{bmatrix}1 \\ -1 \\ 1\end{bmatrix}}$$
 

@@ -14,8 +14,10 @@ $$\begin{bmatrix}-3 & 6 & -1 & 1 & -7 & 0 \\ 1 & -2 & 2 & 3 & -1 & 0 \\ 2 & -4 &
 - $x_4=t$
 - $x_5=w$
 This generates the following system of equations
-$$\begin{cases}
+$$
+\begin{cases}
 x_1=2s+t-3w \\
 x_3=-2t+2w
-\end{cases}$$
+\end{cases}
+$$
 forming the general solution $$\vec{x}=\begin{bmatrix}2s+t-3w \\ s \\ -2t+2w \\ t \\ w\end{bmatrix}=\begin{bmatrix}2 \\ 1 \\ 0 \\ 0 \\ 0\end{bmatrix}s+\begin{bmatrix}1 \\ 0 \\ -2 \\ 1 \\ 0\end{bmatrix}t+\begin{bmatrix}-3 \\ 0 \\ 2 \\ 0 \\ 1\end{bmatrix}w$$ it follows that the vector coefficients of the free variables form a spanning set of the null space. $$\mathrm{Nul}(A)=\mathrm{span}\set{\begin{bmatrix}2 \\ 1 \\ 0 \\ 0 \\ 0\end{bmatrix},\begin{bmatrix}1 \\ 0 \\ -2 \\ 1 \\ 0\end{bmatrix},\begin{bmatrix}-3 \\ 0 \\ 2 \\ 0 \\ 1\end{bmatrix}}$$

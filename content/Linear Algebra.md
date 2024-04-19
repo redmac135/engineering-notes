@@ -15,25 +15,34 @@ $$\begin{cases}x_1+x_2=2\\x_1-x_2=0\end{cases}$$
 This system has 1 unique solution.
 
 Ex.
-$$\begin{cases}
+$$
+\begin{cases}
 x_1+x_2=1 \\
 x_1+x_2=3
-\end{cases}$$
+\end{cases}
+$$
 This system has no solutions
 Term: inconsistent - a system is inconsistent if there's no solutions. If there is 1 or more solutions, it is consistent.
 
-$$\begin{cases}
+$$
+\begin{cases}
 x_1+x_2=2 \\
 2x_1+2x_2=4
-\end{cases}$$
+\end{cases}
+$$
+
 This system has infinitely many solutions
 
 ### Matrix Notation of a System
-$$\begin{cases}
+
+$$
+\begin{cases}
 x_1+x_2-2x_3=2 \\
 2x_1-3x_2+2x_3=4 \\
 x_1-x_2+x_3=-1 \\
-\end{cases}$$
+\end{cases}
+$$
+
 #### Matrix of Coefficients
 Can be constructed using the coefficients in the linear system where rows are the equations.
 *Note: these values can be matched visually*

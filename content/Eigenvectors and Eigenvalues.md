@@ -16,13 +16,15 @@ This equation is the precursor to the [[Matrix Characteristic Equation]]
 $$A=\begin{bmatrix}1 & 6 \\ 5 & 2\end{bmatrix},\:\vec{x}=\begin{bmatrix}x_1 \\ x_2\end{bmatrix},\:A\vec{x}=7\vec{x}$$
 Is 7 an eigenvalue of $A$? Or: is there a vector $\vec{x}$ such that the equation is satisfied?
 $$\begin{bmatrix}1 & 6 \\ 5 & 2\end{bmatrix}\begin{bmatrix}x_1 \\ x_2\end{bmatrix}=\begin{bmatrix}7x_1 \\ 7x_2\end{bmatrix}$$
-$$\begin{cases}
+$$
+\begin{cases}
 x_1+6x_2=7x_1 \\
 5x_1+2x_2=7x_2
 \end{cases}\Rightarrow\begin{cases}
 -6x_1+6x_2=0 \\
 5x_1-5x_2=0
-\end{cases}$$
+\end{cases}
+$$
 constructing an [[Linear Algebra#Augmented Matrix of Coefficients|augmented matrix]]: $$\begin{bmatrix}-6 & 6 & 0 \\ 5 & -5 & 0\end{bmatrix}\rightarrow\begin{bmatrix}1 & -1 & 0 \\ 0 & 0 & 0\end{bmatrix}$$ let $x_2=s$, then: $x_1=s$ and: $$\vec{x}=\begin{bmatrix}s \\ s\end{bmatrix}=s\cdot\begin{bmatrix}1 \\ 1\end{bmatrix},\:s\in\mathbb{R}$$
 Therefore, any scalar multiple of $\begin{bmatrix}1 \\ 1\end{bmatrix}$ is an eigenvector for the eigenvalue $\lambda=7$.
 
