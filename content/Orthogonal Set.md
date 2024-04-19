@@ -1,4 +1,5 @@
 ## Definition
+
 $V=\mathbb{R}^n,\:S=\set{\vec{v_1},\vec{v_2},...,\vec{v_n}}$
 Set of [[Vector|vectors]] in $\mathbb{R}^n$
 

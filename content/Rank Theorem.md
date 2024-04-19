@@ -7,8 +7,8 @@ define rank as: $$\mathrm{rank\:}(A)=\dim{\mathrm{Col}(A)}\le m$$([[Dimension of
 $\mathrm{Nul}(A)$ ([[Null Space of a Matrix|null space]]) is a subspace of $\mathbb{R}^n$
 $\dim{\mathrm{Nul}(A)}=$ nullity of $A$
 
-*Note: its improper to write $Nul(A)\in\mathbb{R}^n$ as a "subspace" has additional structure*
+_Note: its improper to write $Nul(A)\in\mathbb{R}^n$ as a "subspace" has additional structure_
 
 **Rank Theorem**
 $$\mathrm{rank\:}A+\dim{\mathrm{Nul}(A)}=n$$
-*note: this can be seen from RREF as $\mathrm{rank\:}A$ is the # of pivots and $\dim{\mathrm{Nul}(A)}$ is # of free variables (columns without pivots)*
+_note: this can be seen from RREF as $\mathrm{rank\:}A$ is the # of pivots and $\dim{\mathrm{Nul}(A)}$ is # of free variables (columns without pivots)_
