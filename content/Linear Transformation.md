@@ -71,7 +71,7 @@ _Geometrically: rotates a vector about the origin, maintaining the length, count
 consider the plane $\mathbb{R}^2$. Form the standard basis by rotating the standard basis $\beta=\set{\vec{e_{1}},\vec{e_2}}$.
 $$T(\vec{e_1})=\begin{bmatrix}\cos{\gamma} \\ \sin{\gamma}\end{bmatrix},\:T(\vec{e_2})=\begin{bmatrix}-\sin{\gamma} \\ \cos{\gamma}\end{bmatrix}$$
 Thus,
-$$A=\begin{bmatrix}\cos{\gamma} & \sin{\gamma} \\ \sin{\gamma} & \cos{\gamma}\end{bmatrix}$$
+$$A=\begin{bmatrix}\cos{\gamma} & -\sin{\gamma} \\ \sin{\gamma} & \cos{\gamma}\end{bmatrix}$$
 
 ## Matrix of a Linear Transformation
 
