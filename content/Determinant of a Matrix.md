@@ -1,6 +1,7 @@
 **For 2x2**
 $$A=\begin{bmatrix}a & b \\ c & d\end{bmatrix}$$
-Determinant of A $$\det{A}=\begin{vmatrix}a & b \\ c & d\end{vmatrix}=ab-cd$$
+Determinant of A $$\det{A}=\begin{vmatrix}a & b \\ c & d\end{vmatrix}=ad-bc$$
+
 **For 3x3**
 ![[_obsidian/drawings/Linear Algebra 2024-02-12 08.41.06.excalidraw]]
 $$\begin{vmatrix}a & b & c \\ d & e & f \\ g & h & k\end{vmatrix}=aek+bfg+cdh-gec-hfa-kdb$$
